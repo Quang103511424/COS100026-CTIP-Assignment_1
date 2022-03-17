@@ -11,6 +11,7 @@ page of your website.
 website. 
 •  A footer that includes an email hyperlink to your student email address.  This footer should 
 appear on every page of your website.
+
 ---------------------------------------------------------------------------------------------------
   2.  Topic Description page(s) (topic.html)
 
@@ -47,6 +48,7 @@ the library.  (You should use at least 3 sources of information. Do not just use
 site, and there are appropriate ways to do this, eg. mark-up using a blockquote, inline quote, 
 citation.   
 • Keep track of all your sources/references and cite them as footnotes.
+  
 ---------------------------------------------------------------------------------------------------
   3.  Quiz page (quiz.html) 
 
