@@ -1,7 +1,7 @@
 # Assignment-1
 
   1. Introductory home page (index.html)
----------------------------------------------------------------------------------------------------
+
 This page should contain: 
 •  An appropriate title.  
 •  A background graphic (use CSS to do this).   
@@ -11,9 +11,9 @@ page of your website.
 website. 
 •  A footer that includes an email hyperlink to your student email address.  This footer should 
 appear on every page of your website.
-
-  2.  Topic Description page(s) (topic.html)
 ---------------------------------------------------------------------------------------------------
+  2.  Topic Description page(s) (topic.html)
+
 You should write at least 150 words on your allocated topic and the content should be appropriately 
 marked-up with headings, paragraphs, sections, subsections etc. 
 The page must contain: 
@@ -47,9 +47,9 @@ the library.  (You should use at least 3 sources of information. Do not just use
 site, and there are appropriate ways to do this, eg. mark-up using a blockquote, inline quote, 
 citation.   
 • Keep track of all your sources/references and cite them as footnotes.
-  
-  3.  Quiz page (quiz.html) 
 ---------------------------------------------------------------------------------------------------
+  3.  Quiz page (quiz.html) 
+
 This page consists of a form where the user can enter: 
 • their first name  
 • their last name 
