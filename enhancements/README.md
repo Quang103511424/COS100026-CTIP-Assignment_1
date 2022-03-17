@@ -1,4 +1,4 @@
-Note: Make sure you get all the basics working first before you attempt any enhancements.  
+<h3> Note: Make sure you get all the basics working first before you attempt any enhancements.  
   
  
 The technologies for developing Web applications are rapidly changing. One of the key skills you will need is finding out about these techniques (from the Web) and applying them.  This assessment gives you an opportunity to demonstrate your ability to implement features/techniques that go beyond the specified requirements above. This is an opportunity to demonstrate your ability to discover techniques from a range of sources and apply them in a standards compliant manner.  
