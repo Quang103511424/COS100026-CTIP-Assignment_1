@@ -1,6 +1,6 @@
 # Assignment-1
 
-**1. Introductory home page (index.html) **
+**1. Introductory home page (index.html)
 
 This page should contain: 
 •  An appropriate title.  
