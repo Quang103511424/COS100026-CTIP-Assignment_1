@@ -1,4 +1,4 @@
-# CSS-Requirements
+# CSS Requirements
 
 No style markup should be included in your HTML file.
 
