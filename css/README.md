@@ -1,6 +1,6 @@
 # CSS Requirements
 
-No style markup should be included in your HTML file.
+<h3>No style markup should be included in your HTML file.</h3>
 
 The pages in your website must be styled with CSS and have a consistent ‘look and feel’, particularly 
 common elements such as menus, headers and footers. While the emphasis in this assignment is on 
