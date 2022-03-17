@@ -1,7 +1,7 @@
 # Assignment-1
 
   1. Introductory home page (index.html)
-
+---------------------------------------------------------------------------------------------------
 This page should contain: 
 •  An appropriate title.  
 •  A background graphic (use CSS to do this).   
@@ -13,7 +13,7 @@ website.
 appear on every page of your website.
 
   2.  Topic Description page(s) (topic.html)
-
+---------------------------------------------------------------------------------------------------
 You should write at least 150 words on your allocated topic and the content should be appropriately 
 marked-up with headings, paragraphs, sections, subsections etc. 
 The page must contain: 
@@ -49,7 +49,7 @@ citation.
 • Keep track of all your sources/references and cite them as footnotes.
   
   3.  Quiz page (quiz.html) 
-  
+---------------------------------------------------------------------------------------------------
 This page consists of a form where the user can enter: 
 • their first name  
 • their last name 
