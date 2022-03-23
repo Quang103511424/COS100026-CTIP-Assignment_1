@@ -10,7 +10,7 @@ You are to create your own stylesheet to implement your design. For this assignm
 
 2. All the following CSS Selectors should be used appropriately at some point in your assignment: 
  
-* element, #id, .class, grouping, contextual
+* element, `#id`, `.class`, grouping, contextual
 * pseudo class or element  
 
 3. Provide appropriate formatting to your menu with a background colour.
