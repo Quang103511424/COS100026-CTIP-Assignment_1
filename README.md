@@ -1,5 +1,5 @@
 # ASSIGNMENT 1 REQUIREMENTS
-assignment1-url: https://swinburne.instructure.com/courses/40745/assignments/446045
+Further info: https://swinburne.instructure.com/courses/40745/assignments/446045
 
 # Deliverables    
  
