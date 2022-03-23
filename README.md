@@ -1,4 +1,5 @@
 # ASSIGNMENT 1 REQUIREMENTS
+Due by: `Week 7, Monday, 11 Apr 2022 10:00 PM`  
 Further info: https://swinburne.instructure.com/courses/40745/assignments/446045
 
 # Deliverables    
