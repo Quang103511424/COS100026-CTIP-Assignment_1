@@ -4,6 +4,7 @@
 #  1. Introductory home page (index.html)
 
 This page should contain: 
+
 •  An appropriate title.  
 •  A background graphic (use CSS to do this).   
 •  A menu that links to the other pages on your Web site. This menu should appear on every 
