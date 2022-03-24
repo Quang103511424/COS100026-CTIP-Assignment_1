@@ -1,0 +1,46 @@
+/* This is the font for the whole page keep for the font of the text*/
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+}
+
+/* this is for the background image, feel free to change the image if you wish */
+html {
+  background: url('home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* this makes the transparent strip */
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+
+/* This creates the buttons on the transparent strip */
+#header a:link, a:visited {
+  background-color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* these two line up the buttons right next to eachother */
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
