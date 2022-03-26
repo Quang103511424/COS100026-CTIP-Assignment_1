@@ -50,7 +50,7 @@ This page consists of a form where the user can enter:
 * student number  
 * their responses to at least 5 questions related to your topic. 
  
-The questions should be use five different input types: 
+The questions should be use five different input types:  
 a. a text input question  
 b. a multiple choice question with one correct answer (radio button group)  
 c. a multiple choice question with multiple correct answers (check box group)  
