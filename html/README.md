@@ -51,11 +51,11 @@ This page consists of a form where the user can enter:
 * their responses to at least 5 questions related to your topic. 
  
 The questions should be use five different input types: 
-a. a text input question 
-b. a multiple choice question with one correct answer (radio button group) 
-c. a multiple choice question with multiple correct answers (check box group) 
-d. a drop list with a single correct answer. 
-e. an input type of your choice other than the above (e.g. number, range, text area, image, map, etc.) 
+a. a text input question  
+b. a multiple choice question with one correct answer (radio button group)  
+c. a multiple choice question with multiple correct answers (check box group)  
+d. a drop list with a single correct answer.  
+e. an input type of your choice other than the above (e.g. number, range, text area, image, map, etc.)  
  
 Fieldsets and legends should be used appropriately to group inputs into questions. 
  
