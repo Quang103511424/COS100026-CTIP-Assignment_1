@@ -10,6 +10,7 @@ Student ID | Last Name | Given Name         | Email                        | Mem
 
 -----
 # 📣 ANNOUNCEMENTS
+- ALL members are required to attend Week 6 Workshop session to do Video Task (team task). _**DM Jason/Leader if not available in advance.**_
 - Website is 🟢ONLINE. [[Go to Website]](https://quang103511424.github.io/COS100026-CTIP-Assignment_1/assign1/index.html)
 - Project Due by: `Week 7, Monday 11 Apr 2022 10:00 PM`  
 - Further info: https://swinburne.instructure.com/courses/40745/assignments/446045
