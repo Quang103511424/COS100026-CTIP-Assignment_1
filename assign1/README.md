@@ -10,7 +10,7 @@ This page should contain:
 *  A header containing appropriate content. This header should appear on every page of your website. 
 *  A footer that includes an email hyperlink to your student email address. This footer should appear on every page of your website.
 
----------------------------------------------------------------------------------------------------
+
 ##  2.  Topic Description page(s) (topic.html)
 
 You should write at least 150 words on your allocated topic and the content should be appropriately marked-up with headings, paragraphs, sections, subsections etc. 
@@ -35,14 +35,11 @@ If you decide to have more than one topic page call them topic1.html, topic2.htm
  
 ***Note: You are not expected to create the “definitive reference” on your topic, but your information should be accurate. Incorrect information will reduce your mark.***  
  
-### Sources / References: 
+### Sources / References:   
 * Good resources for starting your research include Wikipedia, Google and online databases in the library. (You should use at least 3 sources of information. Do not just use Wikipedia.) 
 * Use primary sources for information, but then write the content in your own words.  
 * Please do NOT copy your text from other websites. You can quote / cite key text from another site, and there are appropriate ways to do this, eg. mark-up using a blockquote, inline quote, citation.   
-* Keep track of all your sources/references and cite them as footnotes.
-  
----------------------------------------------------------------------------------------------------
-# Enhancements
+* Keep track of all your sources/references and cite them as footnotes.  
  
 
 ##  3.  Quiz page (quiz.html) 
@@ -73,8 +70,12 @@ Before quiz answers are submitted, HTML5 data validation should be used to check
  
 ### Data Submission of Quiz answer to the Server 
  
-For this assignment all forms should have a Submit input. When the submit button is clicked the name-values from the associated form should be sent to the server using the post http method. The server action address is https://mercury.swin.edu.au/it000000/formtest.php. The server will then just echo back the name value pairs to the client. While nothing will be stored on the server in this part of the assignment (we will do this in Part 2) this will allow the form to be tested.  
----
+For this assignment all forms should have a Submit input. When the submit button is clicked the name-values from the associated form should be sent to the server using the post http method. The server action address is https://mercury.swin.edu.au/it000000/formtest.php. The server will then just echo back the name value pairs to the client. While nothing will be stored on the server in this part of the assignment (we will do this in Part 2) this will allow the form to be tested.    
+
+------------- 
+ 
+ # Enhancements
+ 
  <h3> Note: Make sure you get all the basics working first before you attempt any enhancements.</h3>  
   
  
