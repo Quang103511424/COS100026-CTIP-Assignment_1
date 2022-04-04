@@ -1,5 +1,5 @@
 # Group
-![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)
+[![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)](https://discord.com/channels/948753419487834152)
 Student ID | Last Name | Given Name         | Email                        | Memeber Task| Task Details                                                         |
 -----------|-----------|--------------------|------------------------------|:-----------:|:--------------------------------------------------------------------:|
 102860468  |		   |	Uditha	         | 102860468@student.swin.edu.au| 2           | [topic.html](assign1/topic.html)                                     | 
