@@ -1,3 +1,5 @@
+![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)
+-----
 # 📣 ANNOUNCEMENTS
 - Website is 🟢ONLINE. [[Go to Website]](https://quang103511424.github.io/COS100026-CTIP-Assignment_1/assign1/index.html)
 - Project Due by: `Week 7, Monday, 11 Apr 2022 10:00 PM`  
