@@ -1,4 +1,4 @@
-# 🔗 Quick Links
+#
 ![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)
 -----
 # 📣 ANNOUNCEMENTS
