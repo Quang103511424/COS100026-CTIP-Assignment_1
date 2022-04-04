@@ -1,4 +1,4 @@
-# HTML Requirements
+# > HTML Requirements
 
 
 ##  1. Introductory home page (index.html)
@@ -74,7 +74,7 @@ For this assignment all forms should have a Submit input. When the submit button
 
 ------------- 
  
- # Enhancements
+ # > Enhancements
  
  <h3> Note: Make sure you get all the basics working first before you attempt any enhancements.</h3>  
   
