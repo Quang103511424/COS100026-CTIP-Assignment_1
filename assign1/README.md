@@ -1,19 +1,19 @@
-# > HTML Requirements
+ # HTML Requirement
 
-
-##  1. Introductory home page (index.html)
+<details> 
+ <summary><h2>  1. Introductory home page (index.html) </h2></summary>
 
 This page should contain: 
 *  An appropriate title.  
 *  A background graphic (use CSS to do this).   
 *  A menu that links to the other pages on your Web site. This menu should appear on every page of your website. 
 *  A header containing appropriate content. This header should appear on every page of your website. 
-*  A footer that includes an email hyperlink to your student email address. This footer should appear on every page of your website.
+*  A footer that includes an email hyperlink to your student email address. This footer should appear on every page of your website.</p>
+</details>
+<details>
+ <summary><h2> 2.  Topic Description page(s) (topic.html) </h2> </summary>
 
-
-##  2.  Topic Description page(s) (topic.html)
-
-You should write at least 150 words on your allocated topic and the content should be appropriately marked-up with headings, paragraphs, sections, subsections etc. 
+<p>You should write at least 150 words on your allocated topic and the content should be appropriately marked-up with headings, paragraphs, sections, subsections etc. 
 
 The page must contain: 
 * Hierarchically structured headings of at least 2 levels. (e.g. make sure your H2 is below an H1)   
@@ -39,12 +39,12 @@ If you decide to have more than one topic page call them topic1.html, topic2.htm
 * Good resources for starting your research include Wikipedia, Google and online databases in the library. (You should use at least 3 sources of information. Do not just use Wikipedia.) 
 * Use primary sources for information, but then write the content in your own words.  
 * Please do NOT copy your text from other websites. You can quote / cite key text from another site, and there are appropriate ways to do this, eg. mark-up using a blockquote, inline quote, citation.   
-* Keep track of all your sources/references and cite them as footnotes.  
- 
+ * Keep track of all your sources/references and cite them as footnotes.</p>  
+ </details>
+<details>
+ <summary><h2>  3.  Quiz page (quiz.html) </h2></summary>
 
-##  3.  Quiz page (quiz.html) 
-
-This page consists of a form where the user can enter: 
+<p>This page consists of a form where the user can enter: 
 * their first name  
 * their last name 
 * student number  
@@ -70,16 +70,14 @@ Before quiz answers are submitted, HTML5 data validation should be used to check
  
 ### Data Submission of Quiz answer to the Server 
  
-For this assignment all forms should have a Submit input. When the submit button is clicked the name-values from the associated form should be sent to the server using the post http method. The server action address is https://mercury.swin.edu.au/it000000/formtest.php. The server will then just echo back the name value pairs to the client. While nothing will be stored on the server in this part of the assignment (we will do this in Part 2) this will allow the form to be tested.    
-
-------------- 
- 
- # > Enhancements
- 
- <h3> Note: Make sure you get all the basics working first before you attempt any enhancements.</h3>  
+For this assignment all forms should have a Submit input. When the submit button is clicked the name-values from the associated form should be sent to the server using the post http method. The server action address is https://mercury.swin.edu.au/it000000/formtest.php. The server will then just echo back the name value pairs to the client. While nothing will be stored on the server in this part of the assignment (we will do this in Part 2) this will allow the form to be tested.</p>    
+ </details>
+ <details>
+ <summary><h1> Enhancements </h1>
+ <p><em> Note: Make sure you get all the basics working first before you attempt any enhancements.</em></p> </summary>  
   
  
-The technologies for developing Web applications are rapidly changing. One of the key skills you will need is finding out about these techniques (from the Web) and applying them.  This assessment gives you an opportunity to demonstrate your ability to implement features/techniques that go beyond the specified requirements above. This is an opportunity to demonstrate your ability to discover techniques from a range of sources and apply them in a standards compliant manner.  
+<p>The technologies for developing Web applications are rapidly changing. One of the key skills you will need is finding out about these techniques (from the Web) and applying them.  This assessment gives you an opportunity to demonstrate your ability to implement features/techniques that go beyond the specified requirements above. This is an opportunity to demonstrate your ability to discover techniques from a range of sources and apply them in a standards compliant manner.  
  
 These enhancements need to be implemented within the Web pages (index.html, topic.html, quiz.html). The extra features need to enhance your website in a relevant way.  
 On a separate Web page called enhancements.html  list and describe each enhancement you have made and how you have significantly extended the basic HTML and CSS beyond what is covered in the Lectures/Tutorials. Hyperlink from this list to where the feature is implemented in your website. If it is a CSS feature, hyperlink to an example of the html that is selected by the CSS rule. For each enhancement feature briefly explain:  
@@ -102,5 +100,5 @@ Discuss your proposed enhancements with your facilitator before you implement th
 * Be relevant to / enhance the content of the website 
 * Be well described (as explained above) 
 * Be non-trivial.  
-* Be significantly different from other features you have implemented.  
- 
+* Be significantly different from other features you have implemented. </p> 
+ </details> 
