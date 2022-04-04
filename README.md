@@ -2,6 +2,20 @@
 Due by: `Week 7, Monday, 11 Apr 2022 10:00 PM`  
 Further info: https://swinburne.instructure.com/courses/40745/assignments/446045
 
+# Folder Structure  
+
+```
+assign1
+├─── index.html  
+├─── topic.html  
+├─── quiz.html  
+├─── enhancements.html  
+├─── images  
+└─── styles  
+     ├─── style.css  
+     └─── images
+```
+
 # Deliverables    
  
 The marks are allocated 50% for team task and 50% for individual task in this assignment.  
