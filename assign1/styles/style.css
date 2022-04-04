@@ -1,0 +1,99 @@
+/* This is the font for the whole page keep for the font of the text*/
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+html, body {
+  width: 100%;
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+  margin: 0;
+  
+}
+
+/* this is for the background image, feel free to change the image if you wish */
+/*html {
+  background: url('home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* this makes the transparent strip */
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+
+/* This creates the buttons on the transparent strip */
+#header a:link, a:visited {
+  background-color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* these two line up the buttons right next to eachother */
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* STYLE QUIZ.HTML */
+
+#container {
+  background-image: url("images/199391-cisco-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 20px;
+  color: white;
+}
+
+#left #right {
+  display: flex;
+  flex-direction:row ;
+  box-sizing: border-box;
+}
+
+#left {
+  float: left;
+  width: 40%;
+}
+
+#right {
+  float: left;
+  width: 60%;
+}
+
+#right fieldset {
+  margin-right: 50px;
+}
+
+#nxt {
+  display: block;
+}
+.questions {
+  background-image: url("images/199391-cisco-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.question-box label {
+  font-size: 5em;
+  padding-bottom: 1em;
+}
