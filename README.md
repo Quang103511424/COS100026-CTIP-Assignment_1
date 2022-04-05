@@ -1,4 +1,4 @@
-Win: _<kbd>Ctrl</kbd> + Click_ OR Mac: _<kbd>⌘</kbd> + Click_ to open link in new tab
+💡 Win: _<kbd>Ctrl</kbd> + Click_ OR Mac: _<kbd>⌘</kbd> + Click_ to open link in new tab
 
 # Group
 [![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)](https://discord.com/channels/948753419487834152)
