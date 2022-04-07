@@ -44,3 +44,602 @@ html {
   margin-left: 10px;
   font-size: 20px;
 }
+
+/* --------- QUIZ PAGE -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+:root {
+    --bg-color1: #EDE7B1;
+    --bg-color2: #DDC2C1;
+    --bg-color3: #A9927D;
+    --bg-color4: #F1E9DA;
+    --heading-color: #472836 ;
+    --content-primary-color: #475841;
+    --content-color1: #750D37;
+    --content-color1-1: #2E294E;
+    --content-color2: #621612;
+    --content-color2-2: #12355B;
+    --content-color2-3: #B7C2B1;
+    --content-color2-4: #1F271B;
+    --content-color3: #2E294E;
+}
+
+/* Style Sidebar */ 
+
+.nav-contents {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #3772FF;
+    height: 100%;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.nav-contents ul *{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 50px;
+}
+ 
+.nav-contents ul li a {
+    padding-left: 30px;
+    line-height: 60px;
+    color: orange;
+    font-weight: bold;
+}
+
+.nav-contents h3 {
+    padding-left: 30px;
+}
+
+.nav-contents ul li:hover {
+    background-color: white;
+    border-radius: 5px;;
+    cursor: pointer;
+}
+
+#toggler {
+    display: none;
+}
+
+#btn {
+    position: fixed;
+    cursor: pointer;
+    top: 25px;
+    right: 25px;
+    z-index: 2;
+}
+
+#toggler:checked ~ .nav-contents {
+    right: 0;
+}
+
+#toggler:checked ~ #start, #toggler:checked ~ #questions, #toggler:checked ~ #header {
+    filter: blur(5px);  
+}
+    
+/* Styles containers and all its children */
+#start {
+    height: 100%;
+    background: var(--bg-color1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+
+#columns {
+    height: 100%;
+    padding-left: 3em;
+}
+
+#left, #right {
+    float: left;
+    height: 100%;
+}
+#left {
+    width: 55%;
+}
+
+#right {
+    width: 45%;
+    position: relative;
+}
+
+#left input {
+    padding: 0.7em 1.3em;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border: 2px solid var(--content-primary-color);
+    color: var(--content-primary-color);
+    border-radius: 2em;
+    width: 60%;
+    font-family: Consolas;
+}
+
+#left h1 {
+    color: var(--heading-color);
+    font-size: 2.6em;
+    font-weight: 800;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#subheading {
+    margin-bottom: 2.5em;
+}
+
+#description {margin-bottom: 2em;}
+
+#left p {
+    font-size: 0.8em;
+    color: var(--content-primary-color);
+}
+
+#left div {position: relative; margin-top: 1.3em;z-index: 0;}
+#left a {
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;   
+    background-color: var(--heading-color);
+    color: var(--bg-color1);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    position: absolute;
+}
+
+#start-btn {margin-top: 1.5em;}
+
+#right {background-color: var(--heading-color);}
+
+#right div {
+    padding: 9em 4em;
+}   
+
+#footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:10%;
+    text-align: center;
+}
+
+
+
+/* Style questions section */
+
+#questions > div {
+    height: 100%;
+}
+
+#questions {
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#question-box {
+    height: 90%;
+    padding: 0 50px;
+}
+
+#qfieldset-container {
+    padding-top: 100px;
+    height: 80%;
+}
+
+#questions fieldset {
+    height: 100%;
+}
+
+#question {
+    font-size: 1.9em;
+    top: 0;
+    height: 40%;
+}
+
+#instruction {
+    font-size: 0.5em;
+}
+
+#ans {
+    bottom: 10px;
+    height: 60%;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=checkbox], input[type=radio] {
+    display: none;
+}
+
+.text-ans-container, .checkbox-ans-container, .radio-ans-container  {
+    padding: 1.5em;
+}
+
+.select-ans-container select {
+    font-size: 1.38em;
+    text-align: center;
+    padding: 0.2em;
+    color: black;
+    background-color: white;
+    border-radius: 0.4em;
+    font-weight: bold;
+}
+
+.select-ans-container option {
+    font-size: 1em;
+    background-color: firebrick;
+    color: white;
+}
+
+.checkbox-ans-container, .radio-ans-container {
+    text-align: left;
+    font-size: 1.13em;
+    padding: 0;
+}
+
+.mixed-ans-container input, .mixed-ans-container select {
+    background-color: transparent;
+    color: orange;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 30%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.sub-question {text-align: left;}
+
+#ans input[type=text], #ans input[type=number] {
+    font-size: 1.38em;
+    font-family: Consolas;
+    text-align: center;
+    padding: 0.2em;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+span.address, p.address  {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    background-color: darkslategrey;
+    padding: 0.1em;
+    border-radius: 0.25em;
+
+}
+
+/* Custom elements */
+
+/* checkbox */
+
+.custom_cb {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #3F7398;
+    position: absolute;
+    left: 85px;
+    border-radius: 5px;
+}
+
+.checkbox-ans-container label {
+    padding-left: 60px;
+}
+
+.custom_cb:hover, .checkbox-ans-container p *:hover {
+    cursor: pointer;
+}
+
+.custom_cb:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.custom_cb::after {
+    content: "";
+    border: solid #EE4266;
+    border-width: 0 7px 7px 0;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    transform: rotate(45deg);
+    height: 22px;
+    width: 12px;
+    display: none;
+}
+
+.checkbox-ans-container input:checked ~ .custom_cb {
+    background-color: #F1E9DA;
+}
+
+.checkbox-ans-container input:checked ~ .custom_cb::after {
+    display: block;
+}
+
+/* radio button */
+
+.custom_radio {
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    position: absolute;
+    left: 85px;
+    border-radius: 50%;
+}
+
+.radio-ans-container label {
+    padding-left: 60px;
+}
+
+.custom_radio:hover, .radio-ans-container p *:hover {
+    cursor: pointer;
+}
+
+.custom_radio:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.custom_radio::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: none;
+    background-color: green;
+}
+
+.radio-ans-container input:checked ~ .custom_radio {
+    background-color: bisque;
+}
+
+.radio-ans-container input:checked ~ .custom_radio::after {
+    display: block;
+}
+
+/* select box */
+
+.select-ans-container select {
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.select-ans-container {
+    display: block;
+    color: var(--content-color2-3);
+    align-items: center;
+    position: relative;
+    margin: 1.5em;
+    line-height: 1.58em;
+}
+
+.select-ans-container::after {
+    content: '\25BC';
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.2em 1em;
+    background: firebrick;
+    cursor: pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+    border-radius: 0 0.4em 0.4em 0;
+ }
+
+/* Style Question Container design */
+.question-container-1 {
+    background-color: var(--bg-color2);
+    color: var(--content-color1);
+}
+
+.question-container-1 input, .question-container-1 textarea {
+    color: var(--content-color1-1);
+}
+
+.question-container-2 {
+    background-color: var(--bg-color3);
+    color: var(--content-color2);
+}
+
+.question-container-2 input, .question-container-2 select {
+    color: var(--content-color2-2);
+    background-color: var(--content-color2-3);
+}
+
+.question-container-3 {
+    background-color: var(--bg-color4);
+    color: var(--content-color3);
+}
+
+.question-container-3 input, .question-container-3 select {
+    color: var(--content-color);
+}
+
+.question-container-img {
+    background-image: url("199391-cisco-wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Question 1 */
+#ans1 {
+    width: 10em;
+}
+
+/* Question 2 */
+.question-container-2 {
+    background-color: var(--bg-color3);
+    color: var(--content-color2);
+}
+
+#Q2 select {
+    color: var(--content-color2-2);
+    background-color: var(--content-color2-3);
+}
+
+
+/* Question 4 */
+#Q4 span {
+    font-size: 0.7em;
+}
+
+
+table {
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+/* Question 5 */
+#Q5 td {
+    padding: 0.5em 0 1em;
+}
+#ans5 {
+    font-size: 1em;
+    width: 50%;
+    color: var(--content-color2-4);
+    font-family: Montserrat;
+}
+
+/* Question 6 */
+#Q6 select {background-color: transparent;}
+
+/* Question 7 */
+#Q7 th {
+    color: var(--content-color1);
+    border-bottom: 1px solid var(--content-color3);
+    
+    font-family: Montserrat;
+}
+
+#Q7 textarea {
+    font-size: 0.7em;
+    padding-top: 0.1em;
+    background-color: transparent;
+    border: none;
+}
+
+#Q7 .char {
+    text-align: left;
+    font-size: 0.5em;
+    padding: 0.5em 0 1em;
+    background-color: transparent;
+}
+
+#Q7 td {
+    border-bottom: 1px solid var(--content-color3);
+}
+
+#Q7 input[type=text] {
+    width: 12em;
+    border-bottom:none;
+    font-size: 0.95em;
+}
+
+/* Question 8 */
+#Q8 p.address {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#Q8 input {
+    width: 60%;
+}
+
+#Q8 span {
+    color: white;
+    font-weight: normal;
+}
+
+/* Style Final */
+
+#final #question {height: 20%;}
+
+#colY-container, #colN-container {
+    width: 50%;
+    height: 14.5em;
+    position: relative;
+    float: left;
+}
+
+#colY, #colN {
+    position: absolute;
+    width: 100%;
+    float: left;;
+}
+
+#colY, #colY-container{
+    background-color: var(--bg-color1);
+    color: var(--heading-color);
+}
+
+#colN, #colN-container {
+    background-color: var(--heading-color);
+    color: var(--bg-color1)
+}
+
+#final input[type=radio] {
+    display: inline-block;
+    appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #555555;
+	border-radius: 50%;
+	background-clip: content-box;
+    padding: 3px;
+}
+
+.opt-container label {font-size: 2em; font-weight: bold;}
+
+#final #colY input[type=radio]:checked {
+    background-color: var(--heading-color);
+
+}
+
+#final #colN input[type=radio]:checked {
+    background-color: var(--bg-color1);
+
+}
+
+#conf_y,  #conf_n{
+    display: none;
+    margin-top: 1em;
+    margin-left: 3em;
+    text-align: left;
+}
+
+#opt_y:checked ~ #conf_y {
+   display: block;
+}
+
+#opt_n:checked ~ #conf_n {
+    display: block;
+ }
+
+ summary {cursor: pointer;}
+
+ input[type=submit], input[type=reset] {
+     background-color: var(--heading-color);
+     color: var(--bg-color1);
+     font-size: 1em;
+     padding: 0.2em 0.5em;
+     cursor: pointer;
+ }
+
+ #colN a {
+     color: var(--bg-color1);
+ }
