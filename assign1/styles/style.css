@@ -64,7 +64,7 @@ header li a:hover {
 
   section {
     scroll-snap-align: start;
-    background-color:LightGray;
+    /*background-color:LightGray;*/
   }
 
   .card {
