@@ -411,7 +411,7 @@ span.address, p.address  {
     border: 2px solid black;
     position: absolute;
     left: 0px;
-    bottom: 6px;
+    bottom: 0px;
     border-radius: 50%;
 }
 
