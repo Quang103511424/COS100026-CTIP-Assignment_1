@@ -30,7 +30,7 @@ body {
 header {
     text-align: center;
     position: fixed;
-    width: 99%;
+    width: 100%;
     z-index: 1;
 }
 
