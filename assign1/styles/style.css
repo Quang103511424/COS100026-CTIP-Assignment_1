@@ -63,7 +63,6 @@ header li a:hover {
   }
 
   section {
-    scroll-snap-align: start;
     background-color:transparent;
   }
 
@@ -122,7 +121,7 @@ h1.center-aligned {margin-top: 100px;}
     padding-top: 30px;
 }
 
-#enh{
+.enh{
     width: 400px;
     height: 300px;
 }
@@ -176,7 +175,7 @@ h1.center-aligned {margin-top: 100px;}
     height: 100%;
     transition: all 0.5s ease;
     font-size: 1.5em;
-
+    scroll-snap-align: start;
 }
 
 
@@ -228,7 +227,7 @@ h1.center-aligned {margin-top: 100px;}
 
 #left div {position: relative; margin-top: 1.3em;z-index: 0;}
 #left a {
-    width: 2,5em;
+    width: 2.5em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;   
@@ -244,13 +243,12 @@ h1.center-aligned {margin-top: 100px;}
     position: absolute;
 }
 
-#right {background-color: var(--heading-color);}
 
 #right div {
     padding: 9em 4em;
 }   
 
-#footer {
+.footer {
     position:relative;
     bottom:0;
     width:100%;
@@ -263,8 +261,9 @@ h1.center-aligned {margin-top: 100px;}
 /* Style questions section */
 .question-container {
     height: 100%;
-    background-color: transparent
+    background-color: transparent;
     color: black;
+    scroll-snap-align: start;
 }
 
 
@@ -274,12 +273,12 @@ h1.center-aligned {margin-top: 100px;}
     transition: all 0.5s ease;
 }
 
-#question-box {
+.question-box {
     height: 90%;
     padding: 0 50px;
 }
 
-#qfieldset-container {
+.qfieldset-container {
     padding-top: 100px;
     height: 80%;
 }
@@ -291,17 +290,17 @@ h1.center-aligned {margin-top: 100px;}
     background-color: white;
 }
 
-#question {
+.question {
     font-size: 1.9em;
     top: 0;
     height: 40%;
 }
 
-#instruction {
+.instruction {
     font-size: 0.5em;
 }
 
-#ans {
+.ans {
     bottom: 10px;
     height: 60%;
     text-align: center;
@@ -347,7 +346,7 @@ input[type=checkbox], input[type=radio] {
 
 .sub-question {text-align: left;}
 
-#ans input[type=text], #ans input[type=number] {
+.ans input[type=text], .ans input[type=number] {
     font-size: 1.38em;
     font-family: Consolas;
     text-align: center;
@@ -376,7 +375,7 @@ span.address, p.address  {
     border: 3px solid black;
     position: absolute;
     left: 0;
-    bottom 8px;
+    bottom: 8px;
     border-radius: 5px;
 }
 
@@ -491,7 +490,7 @@ span.address, p.address  {
 /* Style Questions */
 
 /* Question 1 */
-#ans1 {
+.ans1 {
     width: 10em;
 }
 
@@ -504,7 +503,7 @@ span.address, p.address  {
 #Q5 td {
     padding: 0.5em 0 1em;
 }
-#ans5 {
+.ans5 {
     font-size: 1em;
     width: 50%;
     font-family: Montserrat;
@@ -526,7 +525,6 @@ span.address, p.address  {
 }
 
 #Q7 th {
-    color: var(--content-color1);
     border-bottom: 1px solid black;
     
     font-family: Montserrat;
@@ -577,7 +575,7 @@ fieldset.final{
     height: 80%;
 }
 
-#final #question {height: 20%;}
+#final .question {height: 20%;}
 
 #colY-container, #colN-container {
     width: 49.8%;
@@ -622,7 +620,6 @@ fieldset.final{
 #final #colY input[type=radio]:checked {
     background-color: black;
     border: 2px dashed black;
-
 }
 
 #final #colN input[type=radio]:checked {
