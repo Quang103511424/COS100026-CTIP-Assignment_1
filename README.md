@@ -4,11 +4,11 @@
 [![Discord](https://img.shields.io/discord/948753419487834152?label=Assignment%201&logo=Discord&style=for-the-badge)](https://discord.com/channels/948753419487834152)
 Student ID | Last Name | Given Name         | Email                        | Memeber Task| Task Details                                                         |
 -----------|-----------|--------------------|------------------------------|:-----------:|:--------------------------------------------------------------------:|
-102860468  |		   |	Uditha	         | 102860468@student.swin.edu.au| 2           | [topic.html](assign1/topic.html)                                     | 
-103597453  | D'Souza   |	Jason	         | 103597453@student.swin.edu.au| 1	         | [index.html](assign1/index.html)                                     | 
-103539390  | Abid	   | Mohammad Obaidullah| 103539390@student.swin.edu.au| 5	         | [enhancements.html](assign1/enhancements.html), [style.css](assign1/styles/style.css)                                                                                                                                      | 
-103805703  |		   | Md Al-Amin	    | 103805703@student.swin.edu.au| 4           | [style.css](assign1/styles/style.css)                                | 
-103511424	 | Vu	   | Minh Quang	    | 103511424@student.swin.edu.au| 3	         | [quiz.html](assign1/quiz.html), [style.css](assign1/styles/style.css)| 
+102860468  |		   |	Uditha	         | 102860468@student.swin.edu.au| 2           | [topic.html](assign1/topic.html), [enhancements.html](assign1/enhancements.html), [style.css](assign1/styles/style.css)                                    | 
+103597453  | D'Souza   |	Jason	         | 103597453@student.swin.edu.au| 1	         | [index.html](assign1/index.html), [enhancements.html](assign1/enhancements.html), [style.css](assign1/styles/style.css)                                     | 
+~~103539390~~  | ~~Abid~~	   | ~~Mohammad Obaidullah~~| ~~103539390@student.swin.edu.au~~| ~~5~~	         | ~~[enhancements.html](assign1/enhancements.html), [style.css](assign1/styles/style.css)~~                                                                                                                                      | 
+~~103805703~~  |		   | ~~Md Al-Amin~~	    | ~~103805703@student.swin.edu.au~~| ~~4~~           | ~~[style.css](assign1/styles/style.css)~~                                |~~ 
+103511424	 | Vu	   | Minh Quang	    | 103511424@student.swin.edu.au| 3	         | [quiz.html](assign1/quiz.html), [enhancements.html](assign1/enhancements.html), [style.css](assign1/styles/style.css)| 
 
 -----
 # 📣 ANNOUNCEMENTS
