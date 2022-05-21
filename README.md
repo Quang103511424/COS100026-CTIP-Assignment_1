@@ -42,7 +42,7 @@ The marks are allocated 50% for team task and 50% for individual task in this as
   Platform    | Status
   ------------|-------
   [**GitHub Pages**](https://quang103511424.github.io/COS100026-CTIP-Assignment_1/assign1/index.html)| AVAILABLE/UPLOADED
-  Mercury Server | NOT AVAILABLE/NOT UPLOADDED
+  Mercury Server | https://www.youtube.com/watch?v=BQy840UbEBA | NAVAILABLE/UPLOADDED
 *  The short video (team task)  
   _Available after **07 April 2022**_ 
 *  Project report (individual task)    
